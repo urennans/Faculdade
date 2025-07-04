@@ -5,10 +5,6 @@ section .data
              db " \__ \ | |_| | |  _/ | _|  |   / \__ \ | (_) | | .` |  | |  | (__    | _ \ | (_) | | |\/| | | _ \ | _|  |   /", 0xA
              db " |___/  \___/  |_|   |___| |_|_\ |___/  \___/  |_|\_| |___|  \___|   |___/  \___/  |_|  |_| |___/ |___| |_|_\", 0xA
              db "                                                                                                             ", 0xA 0         
-
-
-
-
     MAX_ROUNDS   equ 10                  			; Número máximo de rodadas do jogo
     BOMB_SLOTS   equ 5                    			; Número de alvos por rodada
     MAX_TARGET   equ 10                   			; Valor máximo de um alvo gerado
