@@ -21,8 +21,8 @@ Contribuições
 O projeto foi desenvolvido em equipe, com contribuições importantes para lógica, testes e ajustes.
 
 # Compile o código (ajuste conforme seu ambiente)
-nasm -f elf32 supersonic_bomber.asm -o supersonic_bomber.o
-ld -m elf_i386 supersonic_bomber.o -o supersonic_bomber
+nasm -f elf32 game.asm -o game.o
+ld -m elf_i386 game.o -o game
 
 # Rode o jogo
 ./supersonic_bomber
