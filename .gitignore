@@ -1,0 +1,1 @@
+echo -e "*.o\n*.out\n*.obj\n" >> .gitignore
